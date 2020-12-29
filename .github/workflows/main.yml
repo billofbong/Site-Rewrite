@@ -14,4 +14,4 @@ jobs:
         server: wright.lv
         username: wright55
         password: ${{ secrets.ftp_password }}
-        local-dir: /rewrite/
+        server-dir: rewrite/
