@@ -50,7 +50,7 @@ tsParticles.load("tsparticles", {
 $(document).ready(function(){
   $("#name").css('visibility', 'visible').hide().fadeIn(1000);
   setTimeout(function(){$("#description").css('visibility', 'visible').hide().fadeIn(1500)}, 1000);
-  setTimeout(function(){$("#gh").css('visibility', 'visible').hide().fadeIn(1500)}, 1750);
-  setTimeout(function(){$("#li").css('visibility', 'visible').hide().fadeIn(1500)}, 2000);
-  setTimeout(function(){$("#re").css('visibility', 'visible').hide().fadeIn(1500)}, 2250);
+  setTimeout(function(){$("#gh").css('visibility', 'visible').hide().fadeIn(1500)}, 2250);
+  setTimeout(function(){$("#li").css('visibility', 'visible').hide().fadeIn(1500)}, 2500);
+  setTimeout(function(){$("#re").css('visibility', 'visible').hide().fadeIn(1500)}, 2750);
 });
