@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Will Wright</title>
   <link rel="stylesheet" href="./app.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body style="margin: 0;">
   <div id="tsparticles">
     <div class="title">
-      <h1 class="display-1 text-center">Will Wright</h1>
-      <h1 class="display-4 text-center">Item1, Item2, Item3</h1>
+      <h1 class="display-1 text-center" id="name" style="visibility:hidden;">Will Wright</h1>
+      <h1 class="display-4 text-center" id="description" style="visibility:hidden">Student, Developer, Maker</h1>
+      <br>
+      <div class="images">
+        <span class="fa-stack fa-2x" id="gh" style="visibility:hidden;">
+          <a href="https://github.com/billofbong" target="_blank">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fab fa-github fa-stack-1x"></i>
+          </a>
+        </span>
+        <span class="fa-stack fa-2x" id="li" style="visibility:hidden;">
+          <a href="https://www.linkedin.com/in/william-wright-6732b3133/" target="_blank">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fab fa-linkedin fa-stack-1x"></i>
+          </a>
+        </span>
+        <span class="fa-stack fa-2x" id="re" style="visibility:hidden;">
+          <a href="https://wright.lv/files/resume.pdf" target="_blank">
+            <i class="far fa-circle fa-stack-2x"></i>
+            <i class="fas fa-file-alt fa-stack-1x"></i>
+          </a>
+        </span>
+      </div>
     </div>
   </div>
   <script

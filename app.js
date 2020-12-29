@@ -1,10 +1,11 @@
+var particles = screen.width * screen.height / 10000;
 tsParticles.load("tsparticles", {
   background : {
     color: '#01151a'
   },
   particles: {
     number: {
-      value : 300
+      value: particles
     },
     move: {
       enable: true,
@@ -22,7 +23,7 @@ tsParticles.load("tsparticles", {
         enable: false,
         opacity: 0.02
       },
-      distance: 100,
+      distance: 200,
       color: "#1f97b5"
     },
     color: "#078cad",
@@ -43,5 +44,13 @@ tsParticles.load("tsparticles", {
       }
     }
   },
-  fpsLimit: 60
+  fpsLimit: 30
 })
+
+$(document).ready(function(){
+  $("#name").css('visibility', 'visible').hide().fadeIn(1000);
+  setTimeout(function(){$("#description").css('visibility', 'visible').hide().fadeIn(1500)}, 1000);
+  setTimeout(function(){$("#gh").css('visibility', 'visible').hide().fadeIn(1500)}, 1750);
+  setTimeout(function(){$("#li").css('visibility', 'visible').hide().fadeIn(1500)}, 2000);
+  setTimeout(function(){$("#re").css('visibility', 'visible').hide().fadeIn(1500)}, 2250);
+});
