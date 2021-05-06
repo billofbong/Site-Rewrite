@@ -10,6 +10,7 @@
   transform: translate(-50%, -50%);
   justify-content: center;
   position: absolute;
+  white-space: nowrap;
 }
 .images {
   position: absolute;
@@ -17,6 +18,18 @@
   transform: translate(-50%, -50%);
   margin-top: 25px;
 }
+@media screen and (min-width: 501px) {
+  #description {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #description {
+    font-size: 8vw;
+  }
+}
+
 html, body {
   height: 100%
 }
